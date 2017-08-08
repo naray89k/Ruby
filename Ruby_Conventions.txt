@@ -1,0 +1,15 @@
+Local Variable: 	name fish_and_chips x_axis thx1138 _x _26
+Instance Variable: 	@name @point_1 @X @_ @plan9
+Class Variable: 	@@total @@symtab @@N @@x_pos @@SINGLE
+Global Variable: 	$debug $CUSTOMER $_ $plan9 $Global
+Class Name: 		String ActiveRecord MyClass
+Constant Name: 		FEET_PER_MILE DEBUG
+
+
+Ruby uses a convention that may seem strange at first: 
+	the first characters of a name indicate
+how the name is used. Local variables, method parameters, and method names should all
+start with a lowercase letter2 or an underscore. Global variables are prefixed with a dollar
+sign ($), and instance variables begin with an “at” sign (@). Class variables start with two
+“at” signs (@@).3 Finally, class names, module names, and constants must start with an
+uppercase letter.
